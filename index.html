@@ -28,7 +28,7 @@
     <div class="calc-main">
       <div class="first-part">
         <label for="">Bill</label>
-        <input type="number" class="bill-input input" id="bill-input" </>
+        <input type="number" placeholder="0" class="bill-input input" id="bill-input" </>
         <label for="">Select Tip %</label>
         <div class="tip">
           <div class="tips tips-5%">5%</div>
@@ -40,9 +40,11 @@
         </div>
         
       
-        <label for="">Number of people</label>
+        <div class="people-labels">
+          <label for="">Number of people</label>
         <label for="" class="error">Can't be zero.</label>
-        <input type="number" class="people-input input">
+        </div>
+        <input type="number" placeholder="0" class="people-input input">
       
       </div>
 
@@ -52,23 +54,23 @@
             <p>Tip Amount</p>
             <p class="person">/ person</p>
           </div>
-          <div class="amount" id="tip-amount">$4.27</div>
+          <div class="amount" id="tip-amount">$0.00</div>
         </div>
         <div class="tip-amount">
           <div class="text">
             <p>Total</p>
             <p class="person">/ person</p>
           </div>
-          <div class="amount" id="tip-amount">$32.79</div>
+          <div class="amount" id="total-amount">$0.00</div>
         </div>
 
         <div class="reset">RESET</div>
       </div>
     </div>
 
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div class="attribution">
+    Made with ❤ by <a href="https://twitter.com/tolufbg" target="_blank">Toluwalase Adams</a>.
+  </div>
+  <script src="/script.js"></script>
   </body>
 </html>
